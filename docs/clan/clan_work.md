@@ -1,6 +1,6 @@
 ---
 title: 会战作业
-sidebar: auto
+# sidebar: auto
 ---
 
 ### 会战作业类

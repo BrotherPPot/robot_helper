@@ -1,7 +1,5 @@
 ---
 title: 新版抽卡指令
-sidebar: auto
-
 ---
 
 # 新版抽卡指令

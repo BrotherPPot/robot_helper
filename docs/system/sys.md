@@ -1,7 +1,5 @@
 ---
 title: 系统类
-sidebar: auto
-
 ---
 
 

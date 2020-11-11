@@ -1,6 +1,6 @@
 ---
 title: 会战出刀
-sidebar: auto
+# sidebar: auto
 ---
 
 ### 会战出刀类
