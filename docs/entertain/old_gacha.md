@@ -1,7 +1,5 @@
 ---
 title: 旧版抽卡指令
-sidebar: auto
-
 ---
 
 

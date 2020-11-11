@@ -1,7 +1,5 @@
 ---
-title: 游戏
-sidebar: auto
-
+title: q群小游戏(beta版)
 ---
 
 # q群小游戏(beta版)

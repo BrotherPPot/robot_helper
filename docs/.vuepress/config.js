@@ -3,45 +3,28 @@ module.exports = {
         logo: '/assets/img/五等分的牢饭.jpg',
         activeHeaderLinks: true,
         displayAllHeaders: true,
-        sidebar: {
-            '/clan/': [{
+        sidebar: [
+            {
                 title: '会战类',
-                siderbarDepth: 2,
-                children: [{
-                        title: '会战作业',
-                        path: '/clan/clan_work'
-                    },
-                    {
-                        title: '会战出刀',
-                        path: '/clan/clan_main'
-                    }
-                ]
-            }],
-            '/entertain/': [{
-                tltle: '娱乐类',
-                siderbarDepth: 2,
-                children: [{
-                        title: '新游戏',
-                        path: '/entertain/game'
-                    },
-                    {
-                        title: '旧版抽卡指令',
-                        path: '/entertain/old_gacha'
-                    },
-                    {
-                        title: '新版抽卡指令',
-                        path: '/entertain/new_gacha'
-                    }
-                ]
-            }],
-            '/system/': [{
+                path: '/clan/',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: ['/clan/clan_work', '/clan/clan_main']
+            },
+            {
+                title: '娱乐类',
+                path: '/entertain/',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: ['/entertain/game', '/entertain/old_gacha', '/entertain/new_gacha']
+            },
+            {
                 title: '系统类',
-                siderbarDepth: 2,
-                children: [{
-                    title: '系统指令',
-                    path: '/system/sys'
-                }]
-            }]
-        }
+                path: '/system/',
+                collapsable: false,
+                siderbarDepth: 1,
+                children: ['/system/sys']
+            }
+        ]
     }
 }

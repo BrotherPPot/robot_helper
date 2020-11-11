@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/BrotherPPot/robot_helper/issues"
     },
-    "homepage": "https://github.com/BrotherPPot/robot_helper#readme"
+    "homepage": "https://github.com/BrotherPPot/robot_helper#readme",
+    "devDependencies": {
+        "vuepress": "^1.7.1"
+    }
 }
