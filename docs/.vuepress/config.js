@@ -8,14 +8,14 @@ module.exports = {
                 path: '/clan/',
                 collapsable: true,
                 sidebarDepth: 2,
-                children: ['/clan/clan_work', '/clan/clan_main']
+                children: ['/clan/clan_main', '/clan/clan_work']
             },
             {
                 title: '娱乐类',
                 path: '/entertain/',
                 collapsable: true,
                 sidebarDepth: 2,
-                children: ['/entertain/game', '/entertain/yobot_original', '/entertain/new_gacha', '/entertain/watch_photo']
+                children: ['/entertain/game', '/entertain/new_gacha', '/entertain/yobot_original']
             },
             {
                 title: '系统类',
@@ -23,6 +23,11 @@ module.exports = {
                 collapsable: true,
                 siderbarDepth: 2,
                 children: ['/system/sys','/system/sysWeb']
+            },
+            {
+                title: '额外功能',
+                path: '/extra/',
+                collapsable: false
             }
         ]
     }
