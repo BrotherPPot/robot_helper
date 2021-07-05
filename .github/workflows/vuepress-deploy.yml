@@ -8,17 +8,17 @@ jobs:
       uses: actions/checkout@master
 
     - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
     
     - run: npm install
     - run: npm run docs:build
 
     - uses: papeloto/action-zip@v1
-        with:
-          files: .vuepress/dist/
-          dest: dist.zip
+      with:
+        files: .vuepress/dist/
+        dest: dist.zip
 
     - name: Get current date
       id: date
