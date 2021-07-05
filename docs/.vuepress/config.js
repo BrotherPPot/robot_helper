@@ -15,14 +15,14 @@ module.exports = {
                 path: '/entertain/',
                 collapsable: true,
                 sidebarDepth: 2,
-                children: ['/entertain/game', '/entertain/old_gacha', '/entertain/new_gacha', '/entertain/watch_photo']
+                children: ['/entertain/game', '/entertain/yobot_original', '/entertain/new_gacha', '/entertain/watch_photo']
             },
             {
                 title: '系统类',
                 path: '/system/',
                 collapsable: true,
                 siderbarDepth: 2,
-                children: ['/system/sys']
+                children: ['/system/sys','/system/sysWeb']
             }
         ]
     }
