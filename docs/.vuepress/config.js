@@ -1,6 +1,6 @@
 module.exports = {
     themeConfig: {
-        logo: '/assets/img/五等分的牢饭.jpg',
+        logo: '/assets/img/logo.jpg',
         activeHeaderLinks: true,
         displayAllHeaders: true,
         sidebar: [{
