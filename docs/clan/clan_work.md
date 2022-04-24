@@ -16,74 +16,40 @@ table th:nth-of-type(1) {
 	width: 100px;
 }
 table th:nth-of-type(2) {
-	width: 100px;
+	width: 110px;
 }
 table th:nth-of-type(3) {
-	width: 200px;
+	width: 300px;
 }
 </style>
 # 会战作业类
 
 ## 作业查询
-指令：`作业查询`  
-示例： 
-``` 
-作业查询
-```  
+指令：`查轴 [A/B/C/D] [T/W] [12345/一二三四五] [作业序号]`  
+示例：详情看下方的"查轴演示",以下会有范例演示
+```
+查轴
+查轴 T 3
+查轴 T 3 1
+查轴 4 1 3
+查轴 B 4 5
+```
 权限：无    
-说明：进入会战作业查询的网页端，在面板中也可以点击 `作业查询` 进入。    
+说明：用于查询作业类型，某阶段，某boss的某号作业。    
+1. 感谢花舞组的大力支持，作业使用的是花舞组官方提供的作业区。[花舞作业](https://www.caimogu.cc/gzlj.html)
+2. `查轴`是基础指令，必须输入，也可以换成`会战查询`
+3. T：指`自动刀`  W：指`尾刀` ，若不填则`默认是手动刀`
+4. A/B/C/D：指`选择阶段`，A则为A面（1-3周目），B为B面（4-10周目），C为C面（11-34周目），D为D面(35+周目)，如果不加，则会`默认选取当前工会所处阶段`，如工会查询状态时是 15周末1王，则会判断当前阶段为C面。
+5. 作业序号：选中对应作业，则可以`查看到该作业详情`（通常需要先查看作业列表，再选择对应的作业）
 ***
 
+### 查轴演示
 
-## 作业录入
-指令：`作业录入`    
-示例：
-```  
-作业录入
-```    
-权限：无    
-说明：进入会战作业录入的网页端    
-***
-### 作业录入说明
-* 进入方法：  
-	1. 在q群输入“作业录入”后，点击机器人发送的网址进入    
-	1. 在“作业查询”界面中，点击上方导航栏里的“作业录入”，也可进入   
-* 录入信息：  
-	1. 阶段：设定该作业的阶段【一二三】     
-	1. boss：设定该作业对应的boss【12345】    
-	1. 阵容信息：设定本作业的角色信息    
-		* 角色头像：设定角色    
-		* 星级：设定该角色的星级,可以不填    
-		* 专武：设定该角色是否有专武
-	1. 作业名称：设定该作业的名字，最好使用**可读性强的名字**，例如“511狼病刻晴”之类的名字，方便qq上查看     
-	1. 预计伤害：设定该作业的预估伤害，**填入数字即可**，单位为万       
-	1. 作业轴：设定该作业的作业轴，可以复制粘贴图片进来
-	1. 备注：设定补充内容（可以不填，或者填入轴的来源，视频链接等） 
-  
-![作业录入](../.vuepress/public/assets/img/work_input.png) 
-![作业录入2](../.vuepress/public/assets/img/work_input2.png) 
-
-***
-
-## 会战查询
-指令：`会战查询 [A/B/C/D] [12345/一二三四五] [作业序号]`  
-示例：详情看下方的”会战查询演示“ 
-
-![作业查询主页](../.vuepress/public/assets/img/work_query1.png)
-
-![作业查询2](../.vuepress/public/assets/img/work_query.png) 
-
-权限：无    
-说明：用于查询某阶段，某boss的某号作业    
-
-***
-
-### 会战查询演示
-基本指令：`会战查询 [A/B/C/D] [12345/一二三四五] [作业序号]`  
-|关键词|示例|演示图|说明|
+|**关键词**|**示例**|**演示图**|**说明**|
 |---|---|---| --- |
-| 会战查询 |会战查询&nbsp;| ![会战查询示例1](../.vuepress/public/assets/img/search1.png) | 用于打印当前阶段，所有boss的作业总数，及展示前3个作业。|
-| 会战查询+<br>boss阶段 | 会战查询 A&nbsp; | ![会战查询示例2](../.vuepress/public/assets/img/search2.png) | 用于展示某阶段的boss作业 |
-| 会战查询 +【12345/<br>一二三四五】| 会战查询 1&nbsp; | ![会战查询示例3](../.vuepress/public/assets/img/search3.png) | 用于显示当前阶段，某王的具体作业。<br>可以会战查询+阶段+王。这样可以查询某阶段的某王的具体作业。如会战查询A3，可以查看第一阶段三王的作业。 |
-| 会战查询+【12345/<br>一二三四五】<br>+作业序号 | 会战查询 5 7&nbsp; | <b>先输入会战查询5，查看当前作业清单</b><br>![会战查询示例4](../.vuepress/public/assets/img/search1.png)<b>再输入会战查询 5 7查看五王的7号作业</b><br>![会战查询示例5](../.vuepress/public/assets/img/search5.png) | <b>本指令，是“会战查询”的核心功能，用于给q群的成员快速查询作业。</b>|
-
+| **查轴** |`查轴`| ![会战查询示例1-1](../.vuepress/public/assets/img/clan/work/work_basic1.png)![会战查询示例1-2](../.vuepress/public/assets/img/clan/work/work_basic2.png) | 用于打印**当前阶段，所有boss的手动刀**的作业总览，及展示前2个作业。|
+| **查轴+[T/W]** |`查轴 T`| ![会战查询示例2-1](../.vuepress/public/assets/img/clan/work/work_auto_basic1.png)![会战查询示例2-2](../.vuepress/public/assets/img/clan/work/work_auto_basic2.png) | 用于查看**当前阶段，所有boss的自动刀/尾刀**的作业，只展示每个boss的前2个作业。|
+| **查轴<br>+boss阶段<br>+[T/W]** | `查轴 a`<br>`查轴a w`| ![会战查询示例3-1](../.vuepress/public/assets/img/clan/work/work_remain_stage.png)! | 用于查看**某阶段的所有boss的自动刀/尾刀作业**，只展示每个boss的前2个作业 |
+| **查轴 <br>+【12345/<br>一二三四五】**| `查轴 3` | ![会战查询示例4-1](../.vuepress/public/assets/img/clan/work/work_boss.png) | **用于显示当前阶段，某王的手动刀作业**。<br>可以查轴+阶段+王。这样可以查询某阶段的某王的作业。如查轴b4，可以查看第二阶段b（b面）四王的作业。 |
+| **查轴<br>+[T/W]<br>+【12345/<br>一二三四五】<br>+作业序号** | `查轴 t 5 `<br>*查询当前阶段5王自动刀*<br>`查轴 t 5 7`<br>*查询5王自动刀，7号作业*<br> | **先输入查轴 t 5，查看当前作业清单**<br>![t5-1](../.vuepress/public/assets/img/clan/work/work_detail_t5-1.png)![t5-2](../.vuepress/public/assets/img/clan/work/work_detail_t5-2.png)<b>**<br>再输入会战查询 5 7查看五王的7号作业**</b><br>![会战查询示例t57](../.vuepress/public/assets/img/clan/work/work_detail_t57.png) | 本指令，是 **<font color="#e60033">“会战查询”的核心功能</font>**，用于公会成员快速查询作业。|
+| **查轴<br>+boss阶段<br>+[T/W]<br>+【12345/<br>一二三四五】<br>+作业序号** | `查轴 a t 3 2`<br>*查询a面3王自动刀，2号作业* | ![at32-1](../.vuepress/public/assets/img/clan/work/work_at32-1.png)![at32-2](../.vuepress/public/assets/img/clan/work/work_at32-2.png) ![at32-3](../.vuepress/public/assets/img/clan/work/work_at32-3.png) | 本指令，是最完整的查轴功能演示。|

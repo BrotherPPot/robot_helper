@@ -3,10 +3,11 @@
 title: 会战出刀
 # sidebar: auto
 ---
-
+<!-- <font color="#e60033"></font> -->
 # 会战出刀
 *说明：部分会战功能,是 **@LinePro** 的机器人的独特功能，与原版的yobot不同。区别部分需要仔细确认*  
-*带有 `<>` 的指令，表示该部分必填。而带有 `[]` 的指令，表示里面的内容选填*    
+*带有 `<>` 的指令，表示该部分<font color="#e60033">必填</font>*  
+*而带有 `[]` 的指令，表示里面的内容<font color="#e60033">选填</font>*    
 
 ## 系统指令
 ### 手册
@@ -15,6 +16,8 @@ title: 会战出刀
 ```
 手册  
 ```
+![会战手册](../.vuepress/public/assets/img/clan/manual.png)
+
 权限：无    
 说明：查看公会战使用手册  
 
@@ -25,6 +28,8 @@ title: 会战出刀
 ```
 面板  
 ```
+![会战面板](../.vuepress/public/assets/img/clan/dashboard.png)
+
 权限：无  
 说明：进入公会战面板  
 ***
@@ -34,6 +39,8 @@ title: 会战出刀
 ```
 查刀  
 ```
+![出刀记录](../.vuepress/public/assets/img/clan/clan_records.png)
+
 权限：无  
 说明：进入公会战查刀页面  
 ***
@@ -60,8 +67,6 @@ title: 会战出刀
 权限：加入工会无权限，**@加入工会需要 Q 群管理员权限**。    
 说明：加入到公会名单。如果有@则为让该玩家加入工会。  
 
-  
-
 ***
 
 ### 加入全部成员
@@ -71,6 +76,8 @@ title: 会战出刀
 ```
 加入全部成员  
 ```
+![加入全部成员](../.vuepress/public/assets/img/clan/clan_add_members_all.png)
+
 权限：Q 群管理员  
 说明：将群内的所有人加入工会（需要 Q 群管理员才可）
 
@@ -85,16 +92,16 @@ title: 会战出刀
 报刀 999k @xxx 昨日 ：昨天给你出的这刀贼强，疯狂暴击  
 ```
 
-<!-- ![image-20210313221941683](../.vuepress/public/assets/img/fight.png) -->
+![报刀1](../.vuepress/public/assets/img/clan/clan_fight1.png)
 
-<!-- ![image-20210313222255251](../.vuepress/public/assets/img/fight2.png) -->
+![报刀2](../.vuepress/public/assets/img/clan/clan_fight2.png)
 
+![报刀3](../.vuepress/public/assets/img/clan/clan_fight3.png)
 
 权限：无  
 说明：  
-1. 对boss造成伤害但未击败时用，记录伤害，可以使用 200w/200万/2000k 等（一般公会精确到万即可）<b>公会中建议使用完整的数字来表示</b>。  这样查账比较方便。  
-2. <b style="color：#e60033">报刀的时候如果需要备注阵容等信息请使用冒号备注的方法，该信息会显示在查刀页面中。 </b>    
-3. 如果有 @ 则为代报，有冒号则为备注。如果有 `昨日` 则将记录添加到前一天。  
+1. **对boss造成伤害但<font color="#e60033">未击败</font>时用**，记录伤害，可以使用 200w/200万/2000k 等（一般公会精确到万即可）<b><font color="#e60033">公会中建议使用完整的数字（即第一种报刀）来表示</font></b>。  这样便于确认boss具体血量。  
+2. 如果有 @ 则为代报，有冒号则为备注。如果有 `昨日` 则将记录添加到前一天。  
 > **昨日功能**：此功能是在日期变更后，将出刀记录添加到前一天。例如国服中 04：59 完成出刀，在 05：01 时向机器人报刀则需要加上 `昨日` （多用于跨日刀）。
 
 ***
@@ -106,16 +113,17 @@ title: 会战出刀
 尾刀 @xxx ：19秒补偿
 尾刀 @xxx 昨日：法刀
 ``` 
-
+![尾刀1](../.vuepress/public/assets/img/clan/clan_kill1.png)
+![尾刀2](../.vuepress/public/assets/img/clan/clan_kill2.png)
+![尾刀3](../.vuepress/public/assets/img/clan/clan_kill3.png)
 <!-- ![image-20210313222344908](../.vuepress/public/assets/img/kill.png)  -->
 
 <!-- ![image-20210313222421906](../.vuepress/public/assets/img/kill2.png) -->
 
 权限：无  
 说明：   
-1. **对boss造成伤害并击败时用**，记录伤害。     
-2. <b style="color：#e60033">报刀的时候如果需要备注阵容等信息请使用冒号备注的方法，该信息会显示在查刀页面中。 </b>    
-3. 如果有 @ 则为代报，有冒号则为备注。如果有 `昨日` 则将记录添加到前一天。  
+1. **对boss造成伤害并<font color="#e60033">击败</font>时用**，记录伤害。     
+2. 如果有 @ 则为代报，有冒号则为备注。如果有 `昨日` 则将记录添加到前一天。  
 > **昨日功能**：此功能是在日期变更后，将出刀记录添加到前一天。例如国服中 04：59 完成出刀，在 05：01 时向机器人报刀则需要加上 `昨日` （多用于跨日刀）。 
 
 ***
@@ -127,12 +135,12 @@ title: 会战出刀
 掉刀 @xxx ：模拟器闪退
 掉刀 @xxx 昨日
 ```
-
+![尾刀1](../.vuepress/public/assets/img/clan/clan_lost1.png)
+![尾刀2](../.vuepress/public/assets/img/clan/clan_lost2.png)
 权限：无
 说明：
 1. 掉刀时使用，效果等同于 **报刀0**。
-2. <b style="color：#e60033">报刀的时候如果需要备注阵容等信息请使用冒号备注的方法，该信息会显示在查刀页面中。 </b>
-3. 如果有 @ 则为代报，有冒号则为备注。如果有 `昨日` 则将记录添加到前一天。
+2. 如果有 @ 则为代报，有冒号则为备注。如果有 `昨日` 则将记录添加到前一天。
 > **昨日功能**：此功能是在日期变更后，将出刀记录添加到前一天。例如国服中 04：59 完成出刀，在 05：01 时向机器人报刀则需要加上 `昨日` （多用于跨日刀）。
 
 ***
@@ -143,8 +151,7 @@ title: 会战出刀
 sl
 sl @xxx
 ```
-
-![image-20210313222521854](../.vuepress/public/assets/img/sl.png)
+![SL指令](../.vuepress/public/assets/img/clan/clan_sl.png)
 
 权限：无    
 说明：  
@@ -160,6 +167,7 @@ sl @xxx
 sl?    
 sl? @xxx   
 ```
+![查询SL指令](../.vuepress/public/assets/img/clan/clan_if_sl.png)
 权限：无     
 说明：     
 1. 用于查询成员是否使用过 sl。     
@@ -174,35 +182,16 @@ sl? @xxx
 申请出刀
 申请出刀 @xxx
 ```
+![申请出刀](../.vuepress/public/assets/img/clan/clan_ready_fight.png)
+![申请出刀情况](../.vuepress/public/assets/img/clan/clan_ready_fight_state.png)
 权限：无    
 说明：
 1. 提醒他人准备出刀，提醒后面申请出刀的人有人正在挑战 BOSS，他人可从<b style="color：#e60033">状态</b>指令中查看申请出刀的成员。
 2. 若加上 @，则视为代刀申请，会自动标注代刀的成员名称。注意需要在备注的冒号前。在冒号后则视为备注内容。
-3. 本指令支持<b style="color：#e60033">多人同时申请</b>。
+3. 本指令支持 **<font color="#e60033">多人同时申请</font>。**
+4. 在状态中，可以看到当前的申请出刀情况。
 ***
-### 代刀开始
-指令：`代刀开始 <@某人>`  
-示例：
-```
-代刀开始 @xxx
-```
-权限：无    
-说明：
-1. 令对方进入被代刀状态，私聊提醒对方已开始代刀，可从状态指令中查看代刀关系。（需要对方添加机器人为好友才能提醒成功）
-2. 可在查刀页面中查看代刀关系和开始代刀。
-***
-### 代刀结束
-指令：`代刀结束 <@某人>`  
-示例：
-```
-代刀结束 @xxx
-```
-权限：无    
-说明：
-1. 结束对方的代刀状态，提醒他人已代刀结束。（需要对方添加机器人为好友才能提醒成功）
-2. 报刀指令会自动结束其代刀状态。（但挂树不会，需要手动结束）
-3. 可在查刀页面中结束代刀。
-***
+
 ### 挂树
 指令：`挂树 [@某人] [：备注]`  
 示例：
@@ -211,6 +200,7 @@ sl? @xxx
 挂树：妈避
 挂树 @xxx :500
 ```
+![挂树](../.vuepress/public/assets/img/clan/clan_tree_hang.png)
 权限：无  
 说明：
 1. 玩家挂树，当boss被击败时通知。
@@ -219,18 +209,22 @@ sl? @xxx
 ***
 
 ### 预约
-指令：`预约<1/2/3/4/5> [@某人] [：备注]`  
+指令：`预约[A/B/C/D]<1/2/3/4/5> [@某人] [：备注]`  
 示例：
 ```
 预约1  
 预约234  
 预约45 @xxx :时停刀
+预约D4 @xxx
 ```
+![预约1](../.vuepress/public/assets/img/clan/clan_order1.png)
+![预约2](../.vuepress/public/assets/img/clan/clan_order2.png)
+![预约提醒](../.vuepress/public/assets/img/clan/clan_order_remind.png)
 权限：无   
 说明：
 1. 用于预约boss，当进度推进到当前boss时，机器人会 @ 此人。有冒号则为留言。
-2.  <b style="color：#e60033">若预约用户未在目标 BOSS 报刀，机器人会自动将此预约延续到下周目。</b>
-3. 若加上 @，则视为代预约，会自动标注代刀的成员名称。注意需要在备注的冒号前。在冒号后则视为备注内容。
+2.  **<font color="#e60033">若预约用户未在目标 BOSS 报刀，机器人会自动将此预约延续到下周目。</font>**
+3. 若加上 @，则视为代预约，会自动标注代刀的成员名称。
 4. 本指令支持批量预约，请参考指令示例。
 5. 每天 5:00 机器人会自动清除所有用户的预约。
 6. 当用户完成今天的出刀后机器人会自动将该用户的所有预约删除。
@@ -286,6 +280,8 @@ sl? @xxx
 查 123
 查预约345
 ```
+![查询预约1](../.vuepress/public/assets/img/clan/clan_order_check1.png)
+![查询预约2](../.vuepress/public/assets/img/clan/clan_order_check2.png)
 权限：无      
 说明：查询该boss的预约情况。本指令支持批量查询，请参考示例。
 ***
@@ -297,8 +293,10 @@ sl? @xxx
 查个人预约
 查个人 @xxx
 ```
+![查个人预约1](../.vuepress/public/assets/img/clan/clan_order_self_check1.png)
+![查个人预约2](../.vuepress/public/assets/img/clan/clan_order_self_check2.png)
 权限：无      
-说明：无 @ 时为查询自己的预约情况，有 @ 时为查询对应成员的预约情况。
+说明：无 @ 时为查询自己的预约情况，有 @ 时为查询对应成员的预约情况。若其后面有括号+id，则表明有人帮他预约了（多用于代刀）
 ***
 ### 查树
 指令：`查树`  
@@ -307,24 +305,26 @@ sl? @xxx
 查树
 ```
 
-![查树](../.vuepress/public/assets/img/check_tree.png)
+![查树](../.vuepress/public/assets/img/clan/clan_tree_check.png)
 
 权限：无  
-说明：查询当前挂树的成员。   
+说明：查询当前挂树的成员（有挂树时间统计）。   
 
 ***
 ### 报告
-指令：`报告`  
+指令：`[离职]报告`  
 示例：
 ```
 报告  
-```
-![报告](../.vuepress/public/assets/img/report.jpg)    
+```  
+![报告](../.vuepress/public/assets/img/clan/clan_report1.jpg)  
+![离职报告](../.vuepress/public/assets/img/clan/clan_report2.jpg)  
 
 权限：无  
 说明：
 1. 生成玩家的会战出刀报告。  
 2. 总出刀后括号内数字代表包括代刀在内的实际出刀数。漏刀后括号内数字代表被代刀数。
+3. 离职报告只是生成图片不同，玩家输入“离职报告”后，不会自动离开工会。
 
 ***
 ### 状态
@@ -334,10 +334,10 @@ sl? @xxx
 状态  
 ```
 
-![image-20210313222941809](../.vuepress/public/assets/img/status.png)
+![状态](../.vuepress/public/assets/img/clan/clan_status.png) 
 
 权限：无  
-说明：用于查询boss状态、今天的出刀总数以及当前已申请出刀的成员。
+说明：十分重要的指令。**<font color="e60033">用于查询boss状态</font>**、今天的出刀总数以及当前已申请出刀的成员。
 
 ***
 ### 进度/出刀情况
@@ -347,12 +347,21 @@ sl? @xxx
 进度
 出刀情况
 出刀情况at
-出刀情况wx
+出刀情况@
+进度
+
 ```
+![进度1](../.vuepress/public/assets/img/clan/clan_progress1.png) 
+![进度2](../.vuepress/public/assets/img/clan/clan_progress2.png) 
+![进度3](../.vuepress/public/assets/img/clan/clan_progress3.png) 
+![进度4](../.vuepress/public/assets/img/clan/clan_progress4.png) 
+<!-- wx提醒暂时没有了 -->
+<!-- 出刀情况wx -->
 权限：无  
 说明：
 1. 用于快捷查询今日的出刀情况，机器人会输出剩余一刀、两刀、三刀未出的人的名单。
 2. 标明(尾)字样则说明该成员有未完成的尾刀补偿。
+3. 添加at，机器人会在群上同时at这些成员出刀
 
 ***
 
@@ -362,14 +371,26 @@ sl? @xxx
 ```
 公会sl
 ```
-![image-20210313224835026](../.vuepress/public/assets/img/clan_sl.png)        
+![查询工会sl](../.vuepress/public/assets/img/clan/clan_union_sl.png)        
 
 权限：无     
 说明：用于快捷查询今日的sl使用情况，机器人会输出使用过sl的成员名单。不过只能输入“公会sl”，输入“工会sl”则无法识别。
 
 ***
+## 合刀
+### 合刀指令总览
+指令：`超杀合刀`  
+示例：
+```
+超杀合刀
+```
+![合刀指令](../.vuepress/public/assets/img/clan/clan_cooperate.png)   
 
-### 合刀计算
+权限：无  
+说明：用于查看几种合刀方式的使用方法。
+***
+
+### 合刀
 指令：`合刀 <boss血量> [刀1伤害] [刀2伤害]`  
 示例：
 ```
@@ -378,13 +399,47 @@ sl? @xxx
 合刀 300w 200w
 合刀 3123546 2698752 2401568 
 ```
+![合刀1](../.vuepress/public/assets/img/clan/clan_cooperate1.png)   
+![合刀2](../.vuepress/public/assets/img/clan/clan_cooperate2.png)   
+![合刀3](../.vuepress/public/assets/img/clan/clan_cooperate3.png)     
 权限：无  
 说明：用于计算合刀补偿时间和满补刀伤害计算。
-1. 当 `合刀` 关键字后接三个数字时，第一个数字表示 boss 血量，后两个数字表示两刀的伤害，将会分别输出两种先后情况下的补时。
-2. 当 `合刀` 关键字后接两个数字时，第一个数字表示 boss 血量，第二个数字表示刀伤。当 boss 血量小于等于刀伤时计算此刀的预计补时。当 boss 血量大于刀伤时计算合刀时其中一刀获得满补所需的另一刀伤害。
-3. 当 `合刀` 关键字后接一个数字时，该数字表示 boss 血量，将会输出两刀击杀获得满补所需的伤害值（即满补线）。
+1. 当 `合刀` 关键字后接**三个数字**时，第1个数字表示 boss 血量，后2个数字表示两刀的伤害，将会分别输出两种先后情况下的补时。
+2. 当 `合刀` 关键字后接**两个数字**时，第1个数字表示 boss 血量，第2个数字表示刀伤。当 boss 血量小于等于刀伤时计算此刀的预计补时。当 boss 血量大于刀伤时计算合刀时其中一刀获得满补所需的另一刀伤害。
+3. 当 `合刀` 关键字后接**一个数字**时，该数字表示 boss 血量，将会输出两刀击杀获得满补所需的伤害值（即满补线）。
 ***
 
+
+### 超杀合刀
+指令：`超杀合刀 <boss剩余血量> <此刀剩余秒数> <此刀目标补偿秒数>`  
+示例：
+```
+超杀合刀 1200w 56 70
+```
+![超杀合刀](../.vuepress/public/assets/img/clan/clan_over_cooperate.png)     
+权限：无  
+说明：用于计算超杀合刀（一刀杀）的情况 
+1. boss血量：指boss当前剩余血量
+2. 此刀剩余秒数：指模拟刀击杀boss后，剩余的秒数。（不包含补偿送的20s）
+3. 此刀目标补偿秒数：指有人参与合刀后，最终想要到达的秒数。（用于高补收下一个boss，一穿二等）
+***
+
+### 一穿二合刀
+指令：`一穿二合刀 <boss血量> <此刀剩余秒数>`  
+示例：
+```
+合刀 500w
+合刀 300w 200w 100w
+合刀 300w 200w
+合刀 3123546 2698752 2401568 
+```
+![一穿二合刀](../.vuepress/public/assets/img/clan/clan_doublekill_cooperate.png)      
+权限：无  
+说明：用于计算一穿二合刀（指一刀杀两次boss）
+1. boss血量：指boss当前剩余血量
+2. 此刀剩余秒数：指模拟刀击杀boss后，剩余的秒数。（不包含补偿送的20s）
+3. 用于计算一刀杀两次boss，需要队友垫的伤害
+***
 ## 排名功能
 ### 查询排名
 指令：`排名 [5]`  
@@ -393,11 +448,11 @@ sl? @xxx
 排名
 排名5
 ```    
-![排名](../.vuepress/public/assets/img/work_range.png)          
-
+<!-- ![排名](../.vuepress/public/assets/img/work_range.png)           -->
+![工会排名](../.vuepress/public/assets/img/clan/clan_rank.png)   
 权限：无       
 说明：
-1. 查询当前工会的会战排名（本功能的<b style="color：red">核心功能</b>）
+1. 查询当前工会的会战排名
 2. 有 `5` 时表示查询公会在 5:00 和 5:30 这两个时间点之间的排名。
 
 ***
@@ -407,6 +462,7 @@ sl? @xxx
 ```
 设置会长     
 ```
+![设置会长](../.vuepress/public/assets/img/clan/clan_set_leader.png) 
 权限：管理员    
 说明：设置工会的会长游戏 uid 后，才能查询工会当前排名。    
 
@@ -414,7 +470,7 @@ sl? @xxx
 
 ### 查询档线
 
-指令：`档线 [前中后]排 [5]`  
+指令：`档线 <前中后>排 [5]`  
 示例：
 ```
 档线 前排
@@ -423,14 +479,18 @@ sl? @xxx
 档线 中排 5
 ```
 
-![image-20210313224417285](../.vuepress/public/assets/img/level_front.png)  
+![档线1](../.vuepress/public/assets/img/level_front.png)  
 
-![image-20210313224441381](../.vuepress/public/assets/img/level_mid5.png)
+![档线2](../.vuepress/public/assets/img/level_mid5.png)
 
-![image-20210313224537614](../.vuepress/public/assets/img/level_midback.png)
+![档线3](../.vuepress/public/assets/img/level_midback.png)
 
 权限：无    
-说明：用于查询当前的**工会战的各个档位线的数据**，如果**额外输入5**，则会查询当**天凌晨五点时的会战排名数据**。    
+说明：
+1. 用于查询当前的**工会战的各个档位线(这里大致分为前中后三挡)的数据**
+2. 其中前排指1-50名的工会，中排指200-2800的工会，后排指5000名以后的工会（此划分方式仅仅是便于程序查询）
+3.  如果输入档线前中排，则会同时显示前排和中排的数据，玩家可以根据需求，来进行查询。
+4. 如果**在最后额外输入5**，则会查询**当天凌晨五点时的会战排名数据**。
 
 ***
 ## 控制指令
@@ -440,6 +500,8 @@ sl? @xxx
 ```
 撤销  
 ```
+![撤销](../.vuepress/public/assets/img/clan/clan_revoke.png)
+
 权限：会战管理员可以撤销其他人的出刀，非管理员只能撤销自己的出刀。  
 说明：  
 1. 该功能，用于撤销上一刀的出刀情况（尾刀或报刀）   
