@@ -6,8 +6,26 @@ title: 附加额外功能
 
 本部分功能将使用由服务购买公会提供的 QQ 账号。
 大多数功能，添加机器人好友后，都会开放私聊功能。  
-因更新频繁，这里所描述的功能可能与正在运行的最新版本有差别。
+因更新频繁，**这里所描述的功能可能与正在运行的最新版本有差别（帮助文档更新有延迟）。**
 :::
+<!-- rank功能用的是乔斯测试 -->
+<!-- 
+## rank/品级查询
+> rank部分暂时是使用花舞组和sora提供的rank。
+指令：`rank`  
+示例：
+```
+rank
+```   
+
+![rank](../.vuepress/public/assets/img/extra/rank.png)
+![rank1](../.vuepress/public/assets/img/extra/rank1.png)
+![rank2](../.vuepress/public/assets/img/extra/rank2.png)
+
+权限：无  
+说明：查看pcr国服最新的角色品级推荐。（更新时间有一定延迟） -->
+
+
 ## 帮助
 指令：`帮助`  
 示例：
@@ -154,8 +172,47 @@ title: 附加额外功能
 发病 凯露
 发病 甘雨
 ```   
-![禁用发病](../.vuepress/public/assets/img/extra/emoji_crazy.png)
-
+![发病1](../.vuepress/public/assets/img/extra/emoji_crazy.png)
+![发病2](../.vuepress/public/assets/img/extra/emoji_crazy1.png)
 权限：无  
 说明：其中发病的文案是随机的，输入时，写一个“对象”即可
 ***
+
+
+
+## 问答模块
+
+### 问答录入
+指令：`问答录入`  
+示例：
+```
+问答录入
+```   
+![问答录入](../.vuepress/public/assets/img/extra/QA.png)
+![问答录入1](../.vuepress/public/assets/img/extra/QA1.png)
+![问答录入2-1](../.vuepress/public/assets/img/extra/QA2-1.png)
+![问答录入2-2](../.vuepress/public/assets/img/extra/QA2-2.png)
+权限：无  
+说明：进入问答录入界面。
+1、添加Q&A处，可以新增指令，根据需求自行diy
+2、使用本功能，需要掌握一定的`正则表达式`知识
+3、下方编辑区支持富文本编辑，可以插入图片，文字，链接，也可以更改文字的样式
+***
+
+### rank查询
+> **本指令是问答模块下的一个示例**，玩家可以自行添加其他定制指令。
+> rank示例图仅为示例，各个工会可以选择自己喜欢的攻略主使用适合的rank表  
+
+指令：`rank`  
+示例：
+```
+rank
+```   
+
+![rank](../.vuepress/public/assets/img/extra/rank.png)
+以下是插入的图
+![rank1](../.vuepress/public/assets/img/extra/rank1.png)
+![rank2](../.vuepress/public/assets/img/extra/rank2.jpg)
+
+权限：无  
+说明：查看pcr的rank表
