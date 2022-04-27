@@ -19,5 +19,8 @@
     "homepage": "https://github.com/BrotherPPot/robot_helper#readme",
     "devDependencies": {
         "vuepress": "^1.7.1"
+    },
+    "dependencies": {
+        "vuepress-plugin-img-lazy": "^1.0.4"
     }
 }

@@ -1,4 +1,7 @@
 module.exports = {
+    plugins: [
+        'img-lazy'
+      ],
     themeConfig: {
         logo: '/assets/img/logo.jpg',
         activeHeaderLinks: true,
