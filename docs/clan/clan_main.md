@@ -405,12 +405,14 @@ sl? @xxx
 
 ## 合刀
 ### 合刀指令总览
-指令：`超杀合刀`  
+指令：`合刀`、`超杀合刀`
 示例：
 ```
+合刀
 超杀合刀
 ```
-![合刀指令](../.vuepress/public/assets/img/clan/clan_cooperate.png)   
+![普通合刀指令](../.vuepress/public/assets/img/clan/clan_normal_cooperate.png) 
+![超杀合刀指令](../.vuepress/public/assets/img/clan/clan_cooperate.png)   
 
 权限：无  
 说明：用于查看几种合刀方式的使用方法。
