@@ -21,14 +21,14 @@ module.exports = {
                 title: '系统类',
                 path: '/system/',
                 collapsable: true,
-                siderbarDepth: 2,
+                sidebarDepth: 2,
                 children: ['/system/sys','/system/sysWeb']
             },
             {
                 title: '花舞类',
                 path: '/huawu/',
                 collapsable: true,
-                siderbarDepth: 2,
+                sidebarDepth: 2,
                 children: ['/huawu/huawu']
             },
             {
