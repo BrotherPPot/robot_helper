@@ -8,7 +8,7 @@ module.exports = {
                 path: '/clan/',
                 collapsable: true,
                 sidebarDepth: 2,
-                children: ['/clan/clan_main', '/clan/clan_work', '/clan/huawu']
+                children: ['/clan/clan_main', '/clan/clan_work']
             },
             {
                 title: '娱乐类',
@@ -29,7 +29,7 @@ module.exports = {
                 path: '/huawu/',
                 collapsable: true,
                 siderbarDepth: 2,
-                children: ['/huawu/huawu','/huawu/clan_main']
+                children: ['/huawu/huawu']
             },
             {
                 title: '额外功能',
