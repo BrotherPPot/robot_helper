@@ -8,23 +8,6 @@ title: 附加额外功能
 大多数功能，添加机器人好友后，都会开放私聊功能。  
 因更新频繁，**这里所描述的功能可能与正在运行的最新版本有差别（帮助文档更新有延迟）。**
 :::
-<!-- rank功能用的是乔斯测试 -->
-<!-- 
-## rank/品级查询
-> rank部分暂时是使用花舞组和sora提供的rank。
-指令：`rank`  
-示例：
-```
-rank
-```   
-
-![rank](../.vuepress/public/assets/img/extra/rank.png)
-![rank1](../.vuepress/public/assets/img/extra/rank1.png)
-![rank2](../.vuepress/public/assets/img/extra/rank2.png)
-
-权限：无  
-说明：查看pcr国服最新的角色品级推荐。（更新时间有一定延迟） -->
-
 
 ## 帮助
 指令：`帮助`  
@@ -42,33 +25,57 @@ rank
 ## 涩图模块
 
 > 本服务使用 [Lolicon API](https://api.lolicon.app/) 接口
+### 启用/禁用涩图
+指令： `启用/禁用 涩图`   
+权限：涩图管理员/机器人主人  
+示例：  
+```
+启用 涩图  
+禁用 涩图  
+```   
+     
+说明：用于禁用/启用 涩图功能。 
 
+***
+### 启用/禁用R18涩图
+指令： `启用/禁用 R18涩图`  
+权限：涩图管理员/机器人主人    
+示例：  
+```
+启用 R18涩图  
+禁用 R18涩图  
+```      
+说明：用于禁用/启用 R18涩图功能。如果涩图被禁用了，r18涩图也无法使用。
+
+***
 ### 普通涩图
 指令： `涩图 [关键字]` 
-
-![涩图](../.vuepress/public/assets/img/photo_loli.png)     
-权限：无      
-说明：根据关键字或随机获取一张涩图。  
+权限：无  
+示例：  
+```
+启用 涩图  
+禁用 涩图   
+```   
+**由于图片比较劲爆，本文档均做打码处理**  
+![涩图1](../.vuepress/public/assets/img/extra/setu_basic.png)
+![涩图2](../.vuepress/public/assets/img/extra/setu_keyword.png)  
+权限：无       
+说明：根据关键字或随机获取一张涩图。   
 
 ***
 
 ### 特殊涩图
 指令：`R18涩图 [关键字]`    
-权限：需要开启 `R18 总开关` 之后才可使用该指令。    
+权限：无（需要管理员开启后才可使用，否则视为普通涩图）    
+示例：  
+```
+R18涩图    
+R18涩图 凯露  
+```
+**由于图片比较劲爆，本文档均做打码处理**   
+![r18涩图1](../.vuepress/public/assets/img/extra/setu_r18_basic.png)  
+![r18涩图2](../.vuepress/public/assets/img/extra/setu_r18_keyword.png)       
 说明：根据关键字或随机获取一张 R18 特殊涩图。
-
-![涩图r18(../.vuepress/public/assets/img/R18_photo.png)
-
-***
-
-### 特殊涩图开启指令
-指令：`R18`  
-
-![启动r18](../.vuepress/public/assets/img/R18.png)
-
-权限：涩图管理员/机器人主人      
-说明：用于设置是否开启 R18 特殊涩图总开关。  
-
 ***
 
 ## 竞技场模块
@@ -120,7 +127,8 @@ rank
 丢自己
 亲1393844304
 ```
-![亲1](../.vuepress/public/assets/img/extra/emoji_kiss1.png)
+![亲1](../.vuepress/public/assets/img/extra/emoji_kiss1.png)  
+以下是实际使用的**gif图**  
 ![亲2](../.vuepress/public/assets/img/extra/emoji_kiss.gif)
 
 权限：无  
@@ -179,40 +187,3 @@ rank
 ***
 
 
-
-## 问答模块
-
-### 问答录入
-指令：`问答录入`  
-示例：
-```
-问答录入
-```   
-![问答录入](../.vuepress/public/assets/img/extra/QA.png)
-![问答录入1](../.vuepress/public/assets/img/extra/QA1.png)
-![问答录入2-1](../.vuepress/public/assets/img/extra/QA2-1.png)
-![问答录入2-2](../.vuepress/public/assets/img/extra/QA2-2.png)
-权限：无  
-说明：进入问答录入界面。
-1、添加Q&A处，可以新增指令，根据需求自行diy
-2、使用本功能，需要掌握一定的`正则表达式`知识
-3、下方编辑区支持富文本编辑，可以插入图片，文字，链接，也可以更改文字的样式
-***
-
-### rank查询
-> **本指令是问答模块下的一个示例**，玩家可以自行添加其他定制指令。
-> rank示例图仅为示例，各个工会可以选择自己喜欢的攻略主使用适合的rank表  
-
-指令：`rank`  
-示例：
-```
-rank
-```   
-
-![rank](../.vuepress/public/assets/img/extra/rank.png)
-以下是插入的图
-![rank1](../.vuepress/public/assets/img/extra/rank1.png)
-![rank2](../.vuepress/public/assets/img/extra/rank2.jpg)
-
-权限：无  
-说明：查看pcr的rank表

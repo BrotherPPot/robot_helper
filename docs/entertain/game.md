@@ -131,7 +131,7 @@ title: Q 群小游戏（beta版）
 
 ## 抽签模块
 ### pcr抽签
-指令：`抽签` 
+指令：`抽签`   
 示例：
 ```  
 抽签
@@ -142,7 +142,7 @@ title: Q 群小游戏（beta版）
 ***
 
 ### 原神抽签
-指令：`原神抽签` 
+指令：`原神抽签`   
 示例：
 ```  
 原神抽签
@@ -154,3 +154,40 @@ title: Q 群小游戏（beta版）
 ***
 
 
+
+## 问答模块
+
+### 问答录入
+指令：`问答录入`  
+示例：
+```
+问答录入
+```   
+![问答录入](../.vuepress/public/assets/img/extra/QA.png)
+![问答录入1](../.vuepress/public/assets/img/extra/QA1.png)
+![问答录入2-1](../.vuepress/public/assets/img/extra/QA2-1.png)
+![问答录入2-2](../.vuepress/public/assets/img/extra/QA2-2.png)
+权限：无  
+说明：进入问答录入界面。  
+1、添加Q&A处，可以新增指令，根据需求自行diy  
+2、使用本功能，需要掌握一定的`正则表达式`知识  
+3、下方编辑区支持富文本编辑，可以插入图片，文字，链接，也可以更改文字的样式  
+***
+
+### rank查询
+> **本指令是问答模块下的一个示例**，玩家可以自行添加其他定制指令。
+> rank示例图仅为示例，各个工会可以选择自己喜欢的攻略主使用适合的rank表  
+
+指令：`rank`  
+示例：
+```
+rank
+```   
+
+![rank](../.vuepress/public/assets/img/extra/rank.png)
+以下是插入的图
+![rank1](../.vuepress/public/assets/img/extra/rank1.png)
+![rank2](../.vuepress/public/assets/img/extra/rank2.jpg)
+
+权限：无  
+说明：查看pcr的rank表
